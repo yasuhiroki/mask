@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+sed -E "s/([0-9]{1,3}\.){3}[0-9]{1,3}/xxx.xxx.xxx.xxx/g" | sed -E "s/[^[:space:],]+@[^[:space:],]+\.[^[:space:]]+/xxx@xxx.xxx/g"
