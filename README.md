@@ -20,13 +20,13 @@ zplug "yasuhiroki/mask", as:command, use:mask
 
 ```bash
 $ echo "1.12.123.123" | mask
-xxx.xxx.xxx.xxx
+***.***.***.***
 
 $ echo "hoge123_test.test+1@example.com" | mask
-xxx@xxx.xxx
+***@***.***
 
 $ echo "1.12.123.123,test,hoge@example.com" | mask
-xxx.xxx.xxx.xxx,test,xxx@xxx.xxx
+***.***.***.***,test,***@***.***
 ```
 
 # LICENSE
